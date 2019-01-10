@@ -1,0 +1,22 @@
+
+body {
+  font-size: 22px;
+  font-family: 'Hind Siliguri', sans-serif;
+}
+
+.navigation {
+  background-color: white;
+}
+
+.nav-link {
+  color: purple; 
+}
+
+.nav-link a:hover {
+  color: white;
+}
+
+.carousel-item {
+  width: 100%;
+  height: 100%;
+}
