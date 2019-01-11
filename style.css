@@ -1,11 +1,20 @@
 
 body {
-  font-size: 22px;
-  font-family: 'Hind Siliguri', sans-serif;
+  font-size: 18px;
+  font-family: 'Bitter', serif;
+}
+
+.top-nav {
+  background-color: orange;
+  color:white;
 }
 
 .navigation {
   background-color: white;
+}
+
+.navbar-logo {
+ width: 80%;
 }
 
 .nav-link {
@@ -14,6 +23,11 @@ body {
 
 .nav-link a:hover {
   color: white;
+}
+
+.donate-btn {
+  border-radius: 20px;
+  background-color: rgba(255, 166, 0, 0.447);
 }
 
 .carousel-item {
