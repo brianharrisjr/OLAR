@@ -39,6 +39,10 @@ body {
   background-color: rgb(255, 166, 0);
 }
 
+#donate-btn {
+  color: white;
+}
+
 .dropdown-menu {
   border: 1px solid white;
 }
