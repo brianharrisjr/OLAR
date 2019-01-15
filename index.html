@@ -7,19 +7,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
-  <link href="https://fonts.googleapis.com/css?family=Bitter:400,400i,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
   <script src="main.js"></script>
 </head>
 <body>
     
-    <div class="container-fluid top-nav pb-0 d-flex justify-content-end">
+    <div class="container-fluid top-nav d-flex justify-content-end">
         <p class="pr-2">Follow Us!</p>
-        <i class="fab fa-facebook-f top-social-links pl-2 pr-2 pr-xl-5"></i>
-        <i class="fab fa-twitter top-social-links pl-2 pr-2 pr-xl-5"></i>
+        <i class="fab fa-facebook-f top-social-links pl-2 pr-2"></i>
+        <i class="fab fa-twitter top-social-links pl-2 pr-2"></i>
     </div>
 
-    <nav class="navbar navbar-expand-md navbar-light sticky-top navigation pt-2 pb-2">
+    <nav class="navbar navbar-expand-md navbar-light navigation pt-4 pb-4">
         <a class="navbar-brand" href="#">
             <img class="navbar-logo" id="Logo" src="onelove.jpeg" alt="">
         </a>
@@ -58,14 +58,20 @@
         </div>
     </nav>
 
-    <div class="container">
+    <div class="jumbotron jumbotron-fluid ">
+      <div class="container">
+        <h1 class="display-4">Welcome to One Love Animal Rescue</h1>
+      </div>
+    </div>
+
+
+   <!-- <div class="container-fluid welcome">
         <div class="row">
             <div class="col-12 text-center pt-5 mt-2 pb-lg-5 mb-5">
                 <h1 class="pb-2">Welcome to One Love Animal Rescue</h1>
-                <hr class="ml-3 mr-3">
             </div>
         </div>
-    </div>
+    </div> -->
 
     
     
@@ -154,22 +160,6 @@
 
 
 
-
-
-<script>
-window.onscroll = function() {
-  growShrinkLogo()
-};
-
-function growShrinkLogo() {
-  var Logo = document.getElementById("Logo")
-  if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 10) {
-    Logo.style.width = '50%';
-  } else {
-    Logo.style.width = '80%';
-  }
-}
-</script>
 
 
 
