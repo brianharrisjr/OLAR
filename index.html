@@ -19,9 +19,9 @@
         <i class="fab fa-twitter top-social-links pl-2 pr-2 pr-xl-5"></i>
     </div>
 
-    <nav class="navbar navbar-expand-md navbar-light navigation pt-4 pb-4">
+    <nav class="navbar navbar-expand-md navbar-light sticky-top navigation pt-2 pb-2">
         <a class="navbar-brand" href="#">
-            <img class="navbar-logo" src="onelove.jpeg" alt="">
+            <img class="navbar-logo" id="Logo" src="onelove.jpeg" alt="">
         </a>
         <button class="navbar-toggler menu-button mr-4" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span>Menu <i class="fas fa-paw"></i></span>
@@ -154,6 +154,22 @@
 
 
 
+
+
+<script>
+window.onscroll = function() {
+  growShrinkLogo()
+};
+
+function growShrinkLogo() {
+  var Logo = document.getElementById("Logo")
+  if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 10) {
+    Logo.style.width = '50%';
+  } else {
+    Logo.style.width = '80%';
+  }
+}
+</script>
 
 
 
