@@ -6,8 +6,8 @@ body {
 }
 
 .top-nav {
-  background-color: orange;
-  color:white;
+  background-color: #FFF7ED;
+  color:rgb(69, 42, 12);;
   font-size: 16px;
   padding-bottom: 0%;
   padding-top: 10px;
@@ -35,18 +35,17 @@ body {
 
 .nav-link a:hover {
   color: white;
-  border-bottom: 1px solid orange;
+  border-bottom: 1px solid #F1962E;
 }
 
 .donate-btn {
   border-radius: 20px;
-  border-color: orange;;
-  background-color: orange;
+  border-color: #F1962E;
+  background-color: #FFF7ED;;
+  color: rgb(85, 58, 17);
 }
 
-#donate-btn {
-  color: white;
-}
+
 
 .dropdown-menu {
   border: 1px solid white;
