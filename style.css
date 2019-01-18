@@ -79,3 +79,10 @@ body {
 .copyright-link {
   color: rgba(255, 255, 255, 0.728);
 }
+
+/* Foster Page */
+
+.foster-dog-pic {
+  border-radius: 10px;
+
+}
