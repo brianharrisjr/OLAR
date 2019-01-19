@@ -6,8 +6,8 @@ body {
 }
 
 .top-nav {
-  background-color: #FFF7ED;
-  color:rgb(69, 42, 12);;
+  background: rgba(255, 166, 0, 0.701);
+  color: white;
   font-size: 16px;
   padding-bottom: 0%;
   padding-top: 10px;
@@ -40,12 +40,14 @@ body {
 
 .donate-btn {
   border-radius: 20px;
-  border-color: #F1962E;
-  background-color: #FFF7ED;;
-  color: rgb(85, 58, 17);
+  background-color: rgba(255, 166, 0, 0.701);
+  color: white;
 }
 
-
+#donate-btn {
+  border-color: rgba(255, 166, 0, 0.701);
+  color: white;
+}
 
 .dropdown-menu {
   border: 1px solid white;
