@@ -56,11 +56,11 @@ body {
 }
 
 .jumbotron {
-  background: url(images/dog8dark.jpg);
+  background: url(images/dog7.jpeg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 900px;
+  height: 700px;
   color: white;
 }
 
