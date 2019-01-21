@@ -69,7 +69,16 @@ body {
   font-size: 80px;
 }
 
+.welcome-text {
+  color: rgba(255, 166, 0, 0.872);
+  font-size: 3.5rem;
+}
 
+.welcome-dog-photo {
+  border-radius: 50%;
+  max-height: 100%;
+  max-width: 100%;
+}
 
 .carousel-item {
   width: 100%;
