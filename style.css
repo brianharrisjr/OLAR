@@ -15,6 +15,10 @@ h4 {
   font-family: 'Boogaloo', cursive;
 }
 
+h5 {
+  font-family: 'Boogaloo', cursive;
+}
+
 .top-nav {
   background: rgba(255, 166, 0, 0.701);
   color: white;
@@ -87,6 +91,10 @@ h4 {
   border-radius: 50%;
   max-height: 100%;
   max-width: 100%;
+}
+
+.card-text {
+  font-weight: 100;
 }
 
 .card:hover{
