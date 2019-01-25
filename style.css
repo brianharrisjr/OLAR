@@ -20,7 +20,7 @@ h5 {
 }
 
 .top-nav {
-  background: rgba(102,178,178);
+  background: rgb(102,178,178);
   color: white;
   font-size: 20px;
   padding-top: 5px;
@@ -52,12 +52,12 @@ h5 {
 
 .donate-btn {
   border-radius: 20px;
-  background-color: rgba(102,178,178);
+  background-color: rgb(102,178,178);
   color: white;
 }
 
 #donate-btn {
-  border-color: rgba(102,178,178);
+  border-color: rgb(102,178,178);
   color: white;
 }
 
@@ -67,7 +67,7 @@ h5 {
 
 .active {
   color: rgba(255, 166, 0, 0.701);
-  border-bottom: 2px solid rgba(102,178,178);
+  border-bottom: 2px solid rgb(102,178,178);
 
 }
 
@@ -82,7 +82,7 @@ h5 {
 
 
 .welcome-text {
-  color:rgba(102,178,178);
+  color:rgb(102,178,178);
   font-family: 'Boogaloo', cursive;
   font-size: 80px;
 }
@@ -98,7 +98,7 @@ h5 {
 }
 
 .card:hover{
-  border-top: 5px solid rgba(102,178,178);
+  border-top: 5px solid rgb(102,178,178);
 }
 
 .btn-primary {
@@ -129,7 +129,7 @@ h5 {
   font-size: 25px;
 }
 .footer-copyright {
-  background: rgba(102,178,178);
+  background: rgb(102,178,178);
 }
 
 .copyright-link {
@@ -140,14 +140,14 @@ h5 {
 
 .available-dogs-title {
   font-size: 60px;
-  color: rgba(102,178,178);
+  color: rgb(102,178,178);
 }
 
 /* Foster Page */
 
 .foster-title {
   font-size: 60px;
-  color: rgba(102,178,178);
+  color: rgb(102,178,178);
 }
 .foster-dog-pic {
   border-radius: 50%;
@@ -162,12 +162,12 @@ h5 {
 }
 
 .foster-application {
-  color: rgba(102,178,178);
+  color: rgb(102,178,178);
 }
 
 /* Events Page */
 
 .events-title {
-  color: rgba(102,178,178);
+  color: rgb(102,178,178);
   font-size: 60px;
 }
