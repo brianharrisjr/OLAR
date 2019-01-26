@@ -11,6 +11,10 @@ h2 {
   font-family: 'Boogaloo', cursive;
 }
 
+h3 {
+  font-family: 'Boogaloo', cursive;
+}
+
 h4 {
   font-family: 'Boogaloo', cursive;
 }
@@ -171,3 +175,10 @@ h5 {
   color: rgb(102,178,178);
   font-size: 60px;
 }
+
+/* About Us Page */
+
+.team-div {
+  background-color:rgba(128, 128, 128, 0.040)
+}
+
