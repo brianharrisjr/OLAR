@@ -17,6 +17,7 @@ h3 {
 
 h4 {
   font-family: 'Boogaloo', cursive;
+  padding-bottom: 2%;
 }
 
 h5 {
@@ -185,5 +186,15 @@ h5 {
 .about-photo {
   max-width: 100%;
   max-height: 100%;
+  margin-bottom: 7%;
+}
+
+.about-card-body{
+  border: 0px;
+  margin-top: 10px;
+}
+
+.about-card-body:hover {
+  border: 0px;
 }
 
