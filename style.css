@@ -181,13 +181,14 @@ h5 {
 /* About Us Page */
 
 .team-div {
-  background-color:rgba(128, 128, 128, 0.040)
+  background-color:rgba(128, 128, 128, 0.040);
 }
 
 .about-photo {
   max-width: 100%;
   max-height: 100%;
   margin-bottom: 7%;
+  border: 2px solid rgba(128, 128, 128, 0.502);
 }
 
 .about-card-body{
