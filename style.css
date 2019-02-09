@@ -219,6 +219,10 @@ hr {
   font-size: 1.2em;
 }
 
+.surrender-line-height {
+  line-height: 2em;
+}
+
 .a-tag {
   color: rgb(102,178,178);
 }
