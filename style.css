@@ -175,6 +175,9 @@ h5 {
   color: rgb(102,178,178);
 }
 
+hr {
+  border-bottom: 2px solid rgb(102,178,178);
+}
 /* Events Page */
 
 .events-title {
@@ -208,4 +211,14 @@ h5 {
 
 .contact-form-subtitle {
   font-size: 1.4em;
+}
+
+/* Surrender Page */
+
+.surrender-subtitle {
+  font-size: 1.2em;
+}
+
+.a-tag {
+  color: rgb(102,178,178);
 }
