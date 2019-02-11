@@ -155,6 +155,11 @@ a:hover {
   color: rgb(102,178,178);
 }
 
+.btn-link:hover{
+  color: rgb(102,178,178);
+} 
+
+
 /* Foster Page */
 
 .foster-title {
