@@ -70,13 +70,15 @@ h5 {
   border: 1px solid white;
 }
 
-.active {
-  color: rgba(255, 166, 0, 0.701);
-  border-bottom: 2px solid rgb(102,178,178);
-
+.nav-active {
+  color: rgb(102,178,178);
+  font-size: 1.2em; 
 }
 
-
+a:hover {
+ color: rgb(84, 186, 186);
+ font-size: 1.1em;
+}
 .jumbotron-fluid {
   background: linear-gradient(transparent, 70%, rgb(255, 255, 255)), url(images/dog7.jpeg);
   background-repeat: no-repeat;
@@ -175,7 +177,7 @@ h5 {
   color: rgb(102,178,178);
 }
 
-hr {
+.form-hr {
   border-bottom: 2px solid rgb(102,178,178);
 }
 /* Events Page */

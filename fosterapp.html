@@ -47,9 +47,9 @@
                 </a>
                 <div class="dropdown-menu mb-1 pt-0" aria-labelledby="navbarDropdown">
                     <a class="dropdown-item pl-3" href="about-us.html">About</a>
-                    <a class="dropdown-item pl-3" href="#">Contact Us</a>
+                    <a class="dropdown-item pl-3" href="contact-us.html">Contact Us</a>
                     <a class="dropdown-item pl-3" href="#">Ways To Help</a>
-                    <a class="dropdown-item pl-3" href="#">Surrender</a>
+                    <a class="dropdown-item pl-3" href="surrender.html">Surrender</a>
                 </div>
             </li> 
             <li class="nav-item pl-xl-2 pr-2">
@@ -71,54 +71,66 @@
       <div class="container pl-lg-5 pr-lg-5 pb-5 pt-4 pt-lg-5">
         <div class="row">
           <div class="col-12 pl-lg-5 pr-lg-5 justify-content-between">
-              <form>
-                  <div class="form-group">
-                    <label for="exampleInputEmail1">Full Name</label>
-                    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter full name">
-                  </div>
-                  <div class="form-group">
-                    <label for="exampleInputEmail1">Address</label>
-                    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter address">
-                  </div>
-                  <div class="form-group">
-                    <label for="exampleInputEmail1">City</label>
-                    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter city">
-                  </div>
-                  <div class="form-group">
-                    <label for="exampleInputEmail1">State / Province</label>
-                    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter state / province">
-                  </div>
-                  <div class="form-group">
-                    <label for="exampleInputEmail1">Zip Code</label>
-                    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter zip code">
-                  </div>
-                  <div class="form-group">
-                    <label for="exampleInputEmail1">Email</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                  </div>
-                  <div class="form-group">
-                      <label for="exampleInputEmail1">Home Phone</label>
-                      <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter home phone number">
-                  </div>
-                  <div class="form-group">
-                      <label for="exampleInputEmail1">Cell Phone</label>
-                      <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter cell phone number">
-                  </div>
-                  <hr>
-                  <div class="form-group">
-                    <label for="exampleInputEmail1">Are you an ADULT member of your household?</label>
-                    <input type="radio" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter cell phone number"><label>Yes</label>
-                    <input type="radio" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter cell phone number"><label>No</label>
+            <form>
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <label for="inputEmail4">First Name</label>
+                  <input type="email" class="form-control" id="inputEmail4" placeholder="First Name">
                 </div>
-                    <div class="form-group form-check">
-                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                        <label class="form-check-label" for="exampleCheck1">Subscribe To Email Updates</label>
-                      </div>
-                  <button type="submit" class="btn btn-primary">Submit</button>
-                </form>
-          </div>
-        </div>
-      </div>
+                <div class="form-group col-md-6">
+                  <label for="inputPassword4">Last Name</label>
+                  <input type="password" class="form-control" id="inputPassword4" placeholder="Last Name">
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="inputAddress">Address</label>
+                <input type="text" class="form-control" id="inputAddress" placeholder="123 Main St">
+              </div>
+              <div class="form-group">
+                <label for="inputAddress2">Address 2</label>
+                <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+              </div>
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <label for="inputCity">City</label>
+                  <input type="text" class="form-control" id="inputCity">
+                </div>
+                <div class="form-group col-md-4">
+                  <label for="inputState">State</label>
+                  <select id="inputState" class="form-control">
+                    <option selected>NJ</option>
+                    <option>PA</option>
+                    <option>DE</option>
+                  </select>
+                </div>
+                <div class="form-group col-md-2">
+                  <label for="inputZip">Zip</label>
+                  <input type="text" class="form-control" id="inputZip">
+                </div>
+              </div>
+              <hr class="form-hr">
+              <div class="form-group">
+                <label for="">Are you an ADULT member of your household? </label>
+                <div class="form-check ">
+                  <input class="form-check-input" type="checkbox" id="gridCheck">
+                  <label class="form-check-label" for="gridCheck">
+                   Yes
+                  </label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="checkbox" id="gridCheck">
+                  <label class="form-check-label" for="gridCheck">
+                   No
+                  </label>
+                </div>
+              </div>
+
+
+              <button type="submit" class="btn btn-primary">Sign in</button>
+            </form>
+           </div>
+           </div>
+          </div> 
 
       <div id="footer" class="mt-5">
         <footer class="page-footer font-small pt-4">
