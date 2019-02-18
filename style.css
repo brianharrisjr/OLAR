@@ -69,21 +69,29 @@ h5 {
 
 .dropdown-menu {
   border: 1px solid white;
+  color: #666;
 }
 
+
 .dropdown-item {
-  font-size: 20px;
-  font-weight: 200;
+  font-size: 1.15em;
+  color: #666;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #666;
 }
 
 .nav-active {
-  color: rgb(102,178,178);
-  font-size: 1.2em; 
+  color: #666;
+  font-size: 1.15em;
+  text-decoration: underline;
+  text-decoration-color: rgb(102,178,178);
 }
 
 a:hover {
  color: rgb(84, 186, 186);
- font-size: 1.1em;
+ font-size: 1.2em;
 }
 .jumbotron-fluid {
   background: linear-gradient(transparent, 70%, rgb(255, 255, 255)), url(images/dog7.jpeg);
