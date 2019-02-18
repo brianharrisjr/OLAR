@@ -79,14 +79,13 @@ h5 {
 }
 
 .navbar-light .navbar-nav .nav-link {
-  color: #556;
+  color: #666;
 }
 
 .nav-active {
   color: #666;
   font-size: 1.15em;
-  text-decoration: underline;
-  text-decoration-color: rgb(102,178,178);
+  border-bottom: 2px solid rgb(102,178,178);
 }
 
 a:hover {
