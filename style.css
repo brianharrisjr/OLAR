@@ -127,6 +127,12 @@ a:hover {
   border-color: white;
 }
 
+.btn-primary:hover {
+  background-color: rgba(128, 128, 128, 0.153);
+  color: #444;
+  border-color: white;
+}
+
 .home-page-container {
   background-color: rgba(128, 128, 128, 0.064);
   padding-bottom: 5rem;
