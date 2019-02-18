@@ -71,6 +71,11 @@ h5 {
   border: 1px solid white;
 }
 
+.dropdown-item {
+  font-size: 20px;
+  font-weight: 200;
+}
+
 .nav-active {
   color: rgb(102,178,178);
   font-size: 1.2em; 
@@ -130,19 +135,45 @@ a:hover {
   color: white;
 }
 
+.footer-link-header {
+  color: rgb(41, 99, 99);
+}
+
 .footer-link {
-  color:rgba(255, 255, 255, 0.728);
+  color:white;
+}
+
+.footer-link:hover {
+  color: rgb(41, 99, 99);
+  text-decoration: none;
 }
 
 .footer-social-link{
   font-size: 25px;
+  color: rgb(41, 99, 99);
 }
 .footer-copyright {
   background: rgb(102,178,178);
 }
 
 .copyright-link {
-  color: rgba(255, 255, 255, 0.728);
+  color: white;
+}
+
+.copyright-link:hover {
+  color: rgb(41, 99, 99);
+  text-decoration: none;
+}
+
+.made-by-bh {
+  color: rgba(255, 255, 255, 0.694);
+  font-size: 17px;
+}
+
+.made-by-bh:hover {
+  color: rgb(41, 99, 99);
+  text-decoration: none;
+}
 }
 
 /* Available Dogs */
